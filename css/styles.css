@@ -847,26 +847,30 @@ width: calc((100% - 120px) / 6);
 
 display: inline-block;
 border-radius: 4px;
-margin-top:100px;
+
 margin-left: 80px;
-gap: 24px;
+
 }
 
 .subscribe-form {
-  display: flex;
-  justify-content: space-between;
-  width: 264px;
-  height: 40px;
-  background-color: var(--navy-blue-color);
-  border: #FFFFFF;
+display: flex;
+justify-content: space-between;
+width: 264px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid var(--WHITE, #FFF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background-color: var(--navy-blue-color);
+
   
 }
 
 .subscribe-button {
 display: inline-flex;
 padding: 8px 24px;
-justify-content: center;
-align-items: center;
+justify-content: flex-end;
+align-items: flex-end;
 gap: 16px;
 max-width: 165px;
 max-height: 40px;
@@ -884,3 +888,9 @@ text-align: center;
 
 }
 
+.input-costam {
+padding-left: 16px;
+padding-top: 8px;
+padding-bottom: 8px;
+
+}
