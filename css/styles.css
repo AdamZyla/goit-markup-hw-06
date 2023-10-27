@@ -859,28 +859,34 @@ justify-content: space-between;
 }
 
 .subscribe-button {
-display: inline-flex;
+display: flex;
 padding: 8px 24px;
-justify-content: flex-end;
-align-items: flex-end;
+
+justify-content: center;
+align-items: centerd;
 gap: 16px;
-max-width: 165px;
-max-height: 40px;
+width: 165px;
+height: 40px;
 border: none;
 border-radius: 4px;
 background-color: var(--iris-color);
 
-font-family: Roboto;
+font-family: Roboto, sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.64px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 color: var(--WHITE, #FFF);
 text-align: center;
+cursor: pointer;
 
-margin-left: 24px;
+margin-left: 24px;}
 
+.subscribe-button-svg {
+   /*margin-left: 16px;*/
+   width: 24px;
+   height: 24px;
 }
 
 .input-costam {
@@ -891,9 +897,16 @@ background-color: var(--navy-blue-color);
 border-radius: 4px;
 border: 1px solid var(--WHITE, #FFF);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-background-color: var(--navy-blue-color);
+background-color: transparent;
 height: 40px;
 width: 264px;
+gap: 24px;
+
+font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white-color);
+
 }
 
 .div-modal {
@@ -930,8 +943,8 @@ width: 264px;
 .label-elements {
 box-sizing: border-box;
 position: relative;
-height: 360px;
-width: 40px;
+max-height: 360px;
+max-width: 40px;
 border-radius: 4px;
 background: var(--DAIRY, #FCFCFC);
 margin-left: 24px;
@@ -940,7 +953,7 @@ margin-right: 24px;
 }
 
 .label-elements-svg {
-   position: absolute;
+   position: absoute;
    top:50%;
    left: 0;
 }
