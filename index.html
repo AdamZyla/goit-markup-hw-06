@@ -532,8 +532,8 @@
 
                 <div class="modal-form">
 
-                    <label class="label-text" for="user-name">Name</label>
                     <div class="label-elements">
+                        <label class="label-text" for="user-name">Name</label>
                         <input class="label-elements-input" type="text" name="user-name" id="user-name" />
                         <svg class="label-elements-svg" width="18" height="24">
                             <use href="./images/icons.svg#icon-person-black">
@@ -545,7 +545,6 @@
                     <div class="label-elements">
 
                         <label class="label-text" for="Phone">Phone</label>
-
                         <input class="label-elements-input" type="tel" name="Phone number" id="Phone" />
                         <svg class="label-elements-svg" width="18" height="24">
                             <use href="./images/icons.svg#icon-phone-black">
@@ -553,8 +552,9 @@
                         </svg>
                     </div>
 
-                    <label class="label-text" for="E-mail">E-mail</label>
+
                     <div class="label-elements">
+                        <label class="label-text" for="E-mail">E-mail</label>
                         <input class="label-elements-input" type="text" name="E-mail" id="E-mail" />
                         <svg class="label-elements-svg" width="18" height="24">
                             <use href="./images/icons.svg#icon-email-black">
@@ -562,15 +562,38 @@
                         </svg>
                     </div>
 
-                    <label class="label-text" for="Comment">Comment</label>
                     <div class="label-elements">
-                        <input class="label-elements-input" type="text" name="Comment" id="Comment"
-                            placeholder="Text input" />
-                        <p>
-                            I accept the terms and conditions of the
-                            <a class="modal-link" href=" "> Privacy Policy</a>
-                        </p>
+                        <label class="label-text" for="user-comment">Comment</label>
+                        <textarea class="textarea-modal" name="user-comment" id="user-comment" name="user-comment"
+                            placeholder="Text input">
+                        </textarea>
                     </div>
+
+                    <div class="label-elements-textarea">
+
+                        <input class="visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
+                            value="true" />
+
+                        <div>
+                            <input for="user-privacy" />
+
+                            <span>
+                                <svg width="10" height="8">
+                                    <use href="./images/icons.svg#icon-Property-1click"></use>
+                                </svg>
+                            </span>
+                            <p>I accept the terms and conditions of the <a class="modal-link" href=""> Privacy
+                                    Policy</a>
+                            </p>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
                     <button class="send-button" type="submit">Send</button>
                 </div>
 
