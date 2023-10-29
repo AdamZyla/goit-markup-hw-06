@@ -1001,7 +1001,7 @@ gap: 24px;
 }
 
 .send-button {
-   display: flex;
+   display: block;
    align-items: center; 
    justify-content: center;
 margin: 0 auto;
@@ -1077,7 +1077,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    margin-right: 8px;
 }
 
-.input-privacy-policy:checked + .lebel-user> span {
+.input-privacy-policy:checked + .lebel-user > span {
    background-color: var(--ocean-color);
 border: none;
 fill: var(--cloud-color);
