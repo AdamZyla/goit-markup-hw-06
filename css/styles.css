@@ -1078,5 +1078,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-privacy-policy:checked + .lebel-user> span {
-   fill: #4D5AE5; 
+   background-color: var(--ocean-color);
+border: none;
+fill: var(--cloud-color);
 }
