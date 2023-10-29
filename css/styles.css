@@ -866,9 +866,9 @@ display: flex;
 padding: 8px 24px;
 
 justify-content: center;
-align-items: centerd;
+align-items: center;
 gap: 16px;
-width: 165px;
+min-width: 165px;
 height: 40px;
 border: none;
 border-radius: 4px;
@@ -887,7 +887,7 @@ cursor: pointer;
 margin-left: 24px;}
 
 .subscribe-button-svg {
-   /*margin-left: 16px;*/
+   margin-left: 16px;
    width: 24px;
    height: 24px;
 }
@@ -909,6 +909,11 @@ font-size: 12px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--white-color);
+}
+
+.subscribe-label {
+/* ble ble*/
+
 }
 
 .modal-text {
@@ -1068,3 +1073,4 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    fill: transparent;
    margin-right: 8px;
 }
+
