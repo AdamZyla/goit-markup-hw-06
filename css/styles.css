@@ -1022,6 +1022,9 @@ margin: 0 auto;
    color: var(--iris-color) ;
 }
 
+.textarea-form {
+   margin-bottom: 16px;
+}
 .textarea-modal {
 width: 100%;
 height: 120px;
