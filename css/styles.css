@@ -847,18 +847,13 @@ width: calc((100% - 120px) / 6);
    }
    
 .subscribe-box {
-
-display: inline-block;
-border-radius: 4px;
-
 margin-left: 80px;
 
 }
 
 .subscribe-form {
 display: flex;
-justify-content: space-between;
- 
+gap: 24px;
 }
 
 .subscribe-button {
